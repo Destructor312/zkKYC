@@ -1,0 +1,11 @@
+Current stack:
+1. hardhat
+2. truffle
+3. solidity
+4. brownie
+5. ganache
+6. circom + snarkjs
+7. web3.js ethers.js
+8. angular
+9. javascript
+10. typescript
