@@ -1,0 +1,6 @@
+[package]
+name = "noir_verify"
+type = "bin"
+authors = [""]
+
+[dependencies]

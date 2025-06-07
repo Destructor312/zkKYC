@@ -17,6 +17,7 @@
     "@veramo/core": "^6.0.0",
     "@veramo/data-store": "^6.0.0",
     "@veramo/did-manager": "^6.0.0",
+    "did-jwt-vc": "^4.0.15",
     "web3": "^4.16.0"
   },
   "devDependencies": {
