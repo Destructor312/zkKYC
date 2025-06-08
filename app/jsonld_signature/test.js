@@ -1,12 +1,7 @@
-const jsonld = require('jsonld');
+import {vc} from '@digitalbazaar/vc';
 
-const doc = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Alice"
-};
-
-// Компактизация JSON-LD
-jsonld.compact(doc, (err, compacted) => {
-  console.log(JSON.stringify(compacted, null, 2));
+const vcProof = await vc.issueCredential({
+  credential: signedVC,
+  suite: new Ed25519Signature2020({key: keyPair}),
+  documentLoader
 });
